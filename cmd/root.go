@@ -5,11 +5,10 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-
 	"github.com/spf13/viper"
 )
 
-var cfgFile string
+var cfgFile string //nolint:gochecknoglobals
 
 // rootCmd represents the base command when called without any subcommands.
 var rootCmd = &cobra.Command{

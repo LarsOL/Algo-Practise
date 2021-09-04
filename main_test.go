@@ -1,4 +1,4 @@
-package main
+package main //nolint
 
 import (
 	"testing"
@@ -7,6 +7,6 @@ import (
 )
 
 func TestHelp(t *testing.T) {
-    t.Parallel()
+	t.Parallel()
 	cmd.Execute()
 }
